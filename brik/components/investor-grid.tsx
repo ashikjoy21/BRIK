@@ -4,19 +4,20 @@ import Image from "next/image"
 import { motion } from "framer-motion"
 
 export default function InvestorGrid() {
+  // List of prominent Indian investors, VCs, and startups
   const investors = [
-    { name: "Sequoia", logo: "/placeholder.svg?height=100&width=200" },
-    { name: "OpenAI", logo: "/placeholder.svg?height=100&width=200" },
-    { name: "Founders Fund", logo: "/placeholder.svg?height=100&width=200" },
-    { name: "Andreessen Horowitz", logo: "/placeholder.svg?height=100&width=200" },
-    { name: "General Catalyst", logo: "/placeholder.svg?height=100&width=200" },
-    { name: "Khosla Ventures", logo: "/placeholder.svg?height=100&width=200" },
-    { name: "Sam Altman", logo: "/placeholder.svg?height=100&width=200" },
-    { name: "Dylan Field", logo: "/placeholder.svg?height=100&width=200" },
-    { name: "SignalFire", logo: "/placeholder.svg?height=100&width=200" },
-    { name: "Naval Ravikant", logo: "/placeholder.svg?height=100&width=200" },
-    { name: "Thiel", logo: "/placeholder.svg?height=100&width=200" },
-    { name: "Balaji Srinivasan", logo: "/placeholder.svg?height=100&width=200" },
+    { name: "Sequoia India", logo: "/images/investors/sequoia-india.png" },
+    { name: "Blume Ventures", logo: "/images/investors/blume.png" },
+    { name: "Accel India", logo: "/images/investors/accel-india.png" },
+    { name: "Nexus Venture Partners", logo: "/images/investors/nexus.png" },
+    { name: "Chiratae Ventures", logo: "/images/investors/chiratae.png" },
+    { name: "BYJU'S", logo: "/images/investors/byjus.png" },
+    { name: "Infosys", logo: "/images/investors/infosys.png" },
+    { name: "TCS", logo: "/images/investors/tcs.png" },
+    { name: "Flipkart", logo: "/images/investors/flipkart.png" },
+    { name: "Zerodha", logo: "/images/investors/zerodha.png" },
+    { name: "Zomato", logo: "/images/investors/zomato.png" },
+    { name: "Paytm", logo: "/images/investors/paytm.png" },
   ]
 
   return (
@@ -52,7 +53,7 @@ export default function InvestorGrid() {
           whileHover={{ scale: 1.05 }}
         >
           <Image
-            src={investor.logo || "/placeholder.svg"}
+            src={investor.logo || "/images/investors/default.png"}
             alt={investor.name}
             width={150}
             height={60}

@@ -6,87 +6,87 @@ import { Button } from "@/components/ui/button"
 import { motion, AnimatePresence } from "framer-motion"
 
 export default function MentorSection() {
-  // All mentors data
+  // All mentors data - featuring prominent Indian entrepreneurs and business leaders
   const allMentors = [
     {
-      name: "Marc Randolph",
-      role: "Founder of Netflix",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Ratan Tata",
+      role: "Former Chairman of Tata Sons",
+      image: "/images/mentors/ratan-tata.jpg",
     },
     {
-      name: "Kevin Hartz",
-      role: "Founder of Eventbrite",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Narayan Murthy",
+      role: "Co-founder of Infosys",
+      image: "/images/mentors/narayan-murthy.jpg",
     },
     {
-      name: "Naval Ravikant",
-      role: "Founder of AngelList",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Kiran Mazumdar-Shaw",
+      role: "Founder of Biocon",
+      image: "/images/mentors/kiran-mazumdar.jpg",
     },
     {
-      name: "Max Mullen",
-      role: "Founder of Instacart",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Kunal Shah",
+      role: "Founder of CRED",
+      image: "/images/mentors/kunal-shah.jpg",
     },
     {
-      name: "Sam Altman",
-      role: "CEO of OpenAI",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Vijay Shekhar Sharma",
+      role: "Founder of Paytm",
+      image: "/images/mentors/vijay-sharma.jpg",
     },
     {
-      name: "Dylan Field",
-      role: "Founder of Figma",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Bhavish Aggarwal",
+      role: "Co-founder of Ola",
+      image: "/images/mentors/bhavish-aggarwal.jpg",
     },
     {
-      name: "Balaji Srinivasan",
-      role: "Former CTO of Coinbase",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Deepinder Goyal",
+      role: "Founder of Zomato",
+      image: "/images/mentors/deepinder-goyal.jpg",
     },
     {
-      name: "Peter Thiel",
-      role: "Founder of PayPal",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Nithin Kamath",
+      role: "Founder of Zerodha",
+      image: "/images/mentors/nithin-kamath.jpg",
     },
     {
-      name: "Brian Chesky",
-      role: "Co-founder of Airbnb",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Byju Raveendran",
+      role: "Founder of BYJU'S",
+      image: "/images/mentors/byju-raveendran.jpg",
     },
     {
-      name: "Drew Houston",
-      role: "Founder of Dropbox",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Falguni Nayar",
+      role: "Founder of Nykaa",
+      image: "/images/mentors/falguni-nayar.jpg",
     },
     {
-      name: "Patrick Collison",
-      role: "Co-founder of Stripe",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Harsh Mariwala",
+      role: "Chairman of Marico",
+      image: "/images/mentors/harsh-mariwala.jpg",
     },
     {
-      name: "Melanie Perkins",
-      role: "Co-founder of Canva",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Ritesh Agarwal",
+      role: "Founder of OYO Rooms",
+      image: "/images/mentors/ritesh-agarwal.jpg",
     },
     {
-      name: "Tobi Lütke",
-      role: "Founder of Shopify",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Sachin Bansal",
+      role: "Co-founder of Flipkart",
+      image: "/images/mentors/sachin-bansal.jpg",
     },
     {
-      name: "Daniel Ek",
-      role: "Co-founder of Spotify",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Nandan Nilekani",
+      role: "Co-founder of Infosys, Aadhaar architect",
+      image: "/images/mentors/nandan-nilekani.jpg",
     },
     {
-      name: "Reid Hoffman",
-      role: "Co-founder of LinkedIn",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Azim Premji",
+      role: "Chairman of Wipro",
+      image: "/images/mentors/azim-premji.jpg",
     },
     {
-      name: "Jack Dorsey",
-      role: "Co-founder of Twitter",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Anu Aga",
+      role: "Former Chairperson of Thermax",
+      image: "/images/mentors/anu-aga.jpg",
     },
   ]
 
@@ -182,7 +182,7 @@ export default function MentorSection() {
                 transition={{ duration: 0.3 }}
               >
                 <Image
-                  src={mentor.image || "/placeholder.svg"}
+                  src={mentor.image || "/images/mentors/default.jpg"}
                   alt={mentor.name}
                   fill
                   className="object-cover grayscale hover:grayscale-0 transition-all duration-500"

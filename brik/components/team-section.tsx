@@ -6,77 +6,77 @@ import { Button } from "@/components/ui/button"
 import { motion, AnimatePresence } from "framer-motion"
 
 export default function TeamSection() {
-  // Team members data
+  // Team members data - featuring Indian professionals
   const allTeamMembers = [
     {
-      name: "John Smith",
+      name: "Rajesh Patel",
       role: "Founder & CEO",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/team/ceo.jpg",
     },
     {
-      name: "Sarah Johnson",
+      name: "Priya Sharma",
       role: "COO",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/team/coo.jpg",
     },
     {
-      name: "Michael Chen",
+      name: "Vikram Mehta",
       role: "CTO",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/team/cto.jpg",
     },
     {
-      name: "Emily Williams",
+      name: "Neha Gupta",
       role: "Head of Program",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/team/program-head.jpg",
     },
     {
-      name: "David Rodriguez",
+      name: "Arjun Singh",
       role: "Community Manager",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/team/community.jpg",
     },
     {
-      name: "Jessica Lee",
+      name: "Meera Kapoor",
       role: "Operations Lead",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/team/operations.jpg",
     },
     {
-      name: "Alex Turner",
+      name: "Anil Reddy",
       role: "Marketing Director",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/team/marketing.jpg",
     },
     {
-      name: "Olivia Martinez",
+      name: "Deepika Desai",
       role: "Partnerships Lead",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/team/partnerships.jpg",
     },
     {
-      name: "Robert Wilson",
+      name: "Sanjay Verma",
       role: "Technical Advisor",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/team/advisor.jpg",
     },
     {
-      name: "Sophia Garcia",
+      name: "Ananya Mishra",
       role: "Program Coordinator",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/team/coordinator.jpg",
     },
     {
-      name: "James Taylor",
+      name: "Rahul Khanna",
       role: "Investor Relations",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/team/investor-relations.jpg",
     },
     {
-      name: "Emma Brown",
+      name: "Kavita Joshi",
       role: "Events Manager",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/team/events.jpg",
     },
     {
-      name: "Daniel Kim",
+      name: "Dhruv Malhotra",
       role: "Content Strategist",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/team/content.jpg",
     },
     {
-      name: "Ava Thompson",
+      name: "Pooja Agarwal",
       role: "Talent Scout",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/team/talent.jpg",
     },
   ]
 
@@ -172,7 +172,7 @@ export default function TeamSection() {
                 transition={{ duration: 0.3 }}
               >
                 <Image
-                  src={member.image || "/placeholder.svg"}
+                  src={member.image || "/images/team/default.jpg"}
                   alt={member.name}
                   fill
                   className="object-cover grayscale hover:grayscale-0 transition-all duration-500"

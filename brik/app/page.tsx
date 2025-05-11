@@ -124,7 +124,7 @@ export default function Home() {
             <AnimatedSection direction="right" delay={0.3}>
               <div className="relative w-full aspect-square max-w-md mx-auto rotate-3 shadow-xl transition-transform duration-500 hover:rotate-0 hover:scale-105">
                 <Image
-                  src="/images/google-page-brin-01-gty-jc-191203_hpMain.jpg"
+                  src="/images/google-founders.png"
                   alt="Google founders"
                   width={500}
                   height={500}
@@ -166,7 +166,7 @@ export default function Home() {
             <AnimatedSection direction="right" delay={0.3}>
               <div className="relative transition-transform duration-500 hover:scale-105">
                 <Image
-                  src="/placeholder.svg?height=500&width=500"
+                  src="/images/builders.jpg"
                   alt="Z Fellows group"
                   width={500}
                   height={350}

@@ -84,7 +84,7 @@ export default function Footer() {
           <motion.div className="flex space-x-4" variants={itemVariants}>
             <motion.div variants={socialVariants} whileHover="hover">
               <Link
-                href="https://twitter.com"
+                href="https://x.com/JensenDiaz29032"
                 className="text-gray-700 hover:text-blue-500 transition-colors duration-300"
               >
                 <Twitter />
@@ -93,7 +93,7 @@ export default function Footer() {
             </motion.div>
             <motion.div variants={socialVariants} whileHover="hover">
               <Link
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/ashik--joy/"
                 className="text-gray-700 hover:text-blue-500 transition-colors duration-300"
               >
                 <Linkedin />

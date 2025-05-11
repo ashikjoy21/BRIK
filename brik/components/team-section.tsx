@@ -11,12 +11,12 @@ export default function TeamSection() {
     {
       name: "Ashik Joy",
       role: "Founder & CEO",
-      image: "/images/team/ashik-joy.jpg",
+      image: "/images/team/ashik-joy.png",
     },
     {
       name: "Diaz Jensen",
       role: "COO",
-      image: "/images/team/diaz-jenzen.jpg",
+      image: "/images/team/diaz-jensen.jpg",
     },
   ]
 

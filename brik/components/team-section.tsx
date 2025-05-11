@@ -9,74 +9,14 @@ export default function TeamSection() {
   // Team members data - featuring Indian professionals
   const allTeamMembers = [
     {
-      name: "Rajesh Patel",
+      name: "Ashik Joy",
       role: "Founder & CEO",
-      image: "/images/team/ceo.jpg",
+      image: "/images/team/ashik-joy.jpg",
     },
     {
-      name: "Priya Sharma",
+      name: "Diaz Jensen",
       role: "COO",
-      image: "/images/team/coo.jpg",
-    },
-    {
-      name: "Vikram Mehta",
-      role: "CTO",
-      image: "/images/team/cto.jpg",
-    },
-    {
-      name: "Neha Gupta",
-      role: "Head of Program",
-      image: "/images/team/program-head.jpg",
-    },
-    {
-      name: "Arjun Singh",
-      role: "Community Manager",
-      image: "/images/team/community.jpg",
-    },
-    {
-      name: "Meera Kapoor",
-      role: "Operations Lead",
-      image: "/images/team/operations.jpg",
-    },
-    {
-      name: "Anil Reddy",
-      role: "Marketing Director",
-      image: "/images/team/marketing.jpg",
-    },
-    {
-      name: "Deepika Desai",
-      role: "Partnerships Lead",
-      image: "/images/team/partnerships.jpg",
-    },
-    {
-      name: "Sanjay Verma",
-      role: "Technical Advisor",
-      image: "/images/team/advisor.jpg",
-    },
-    {
-      name: "Ananya Mishra",
-      role: "Program Coordinator",
-      image: "/images/team/coordinator.jpg",
-    },
-    {
-      name: "Rahul Khanna",
-      role: "Investor Relations",
-      image: "/images/team/investor-relations.jpg",
-    },
-    {
-      name: "Kavita Joshi",
-      role: "Events Manager",
-      image: "/images/team/events.jpg",
-    },
-    {
-      name: "Dhruv Malhotra",
-      role: "Content Strategist",
-      image: "/images/team/content.jpg",
-    },
-    {
-      name: "Pooja Agarwal",
-      role: "Talent Scout",
-      image: "/images/team/talent.jpg",
+      image: "/images/team/diaz-jenzen.jpg",
     },
   ]
 

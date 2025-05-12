@@ -18,6 +18,11 @@ export default function TeamSection() {
       role: "Lead",
       image: "/images/team/diaz-jensen.jpg",
     },
+    {
+      name: "Sarangi",
+      role: "Lead",
+      image: "/images/team/sarangi.jpg",
+    },
   ]
 
   // Initial number of team members to display and increment amount

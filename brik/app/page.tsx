@@ -72,17 +72,32 @@ export default function Home() {
         </section>
 
         {/* Alumni Section */}
-        <AnimatedSection className="container mx-auto px-4 py-16 md:py-24">
+        {/* <AnimatedSection className="container mx-auto px-4 py-16 md:py-24">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <AnimatedSection direction="left" delay={0.2}>
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
                 BRIK is where India's top student builders <span className="text-blue-500">connect, create</span> and{" "}
                 <span className="text-blue-500">level up.</span>
               </h2>
-            </AnimatedSection>
-            <AnimatedSection direction="right" delay={0.4}>
+            </AnimatedSection> */}
+            {/* <AnimatedSection direction="right" delay={0.4}>
               <InvestorGrid />
+            </AnimatedSection> */}
+          {/* </div>
+        </AnimatedSection> */}
+
+        {/* Alumni Section */}
+        <AnimatedSection className="container mx-auto px-4 py-16 md:py-24">
+          <div className="flex gap-8 items-center">
+            <AnimatedSection direction="left" delay={0.2} className="flex justify-center items-center">
+              <h2 className="text-4xl text-center md:text-5xl font-bold mb-6 w-4/5 ">
+                BRIK is where India's top student builders <span className="text-blue-500">connect, create</span> and{" "}
+                <span className="text-blue-500">level up.</span>
+              </h2>
             </AnimatedSection>
+            {/* <AnimatedSection direction="right" delay={0.4}>
+              <InvestorGrid />
+            </AnimatedSection> */}
           </div>
         </AnimatedSection>
 
@@ -124,7 +139,7 @@ export default function Home() {
             <AnimatedSection direction="right" delay={0.3}>
               <div className="relative w-full aspect-square max-w-md mx-auto rotate-3 shadow-xl transition-transform duration-500 hover:rotate-0 hover:scale-105">
                 <Image
-                  src="/images/google-page-brin-01-gty-jc-191203_hpMain.jpg"
+                  src="/images/google-founders.png"
                   alt="Google founders"
                   width={500}
                   height={500}
@@ -166,7 +181,7 @@ export default function Home() {
             <AnimatedSection direction="right" delay={0.3}>
               <div className="relative transition-transform duration-500 hover:scale-105">
                 <Image
-                  src="/placeholder.svg?height=500&width=500"
+                  src="/images/builders.jpg"
                   alt="Z Fellows group"
                   width={500}
                   height={350}

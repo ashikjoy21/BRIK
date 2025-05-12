@@ -5,20 +5,9 @@ import { motion } from "framer-motion"
 
 export default function InvestorGrid() {
   // List of prominent Indian investors, VCs, and startups
-  const investors = [
-    { name: "Sequoia India", logo: "/images/investors/sequoia-india.png" },
-    { name: "Blume Ventures", logo: "/images/investors/blume.png" },
-    { name: "Accel India", logo: "/images/investors/accel-india.png" },
-    { name: "Nexus Venture Partners", logo: "/images/investors/nexus.png" },
-    { name: "Chiratae Ventures", logo: "/images/investors/chiratae.png" },
-    { name: "BYJU'S", logo: "/images/investors/byjus.png" },
-    { name: "Infosys", logo: "/images/investors/infosys.png" },
-    { name: "TCS", logo: "/images/investors/tcs.png" },
-    { name: "Flipkart", logo: "/images/investors/flipkart.png" },
-    { name: "Zerodha", logo: "/images/investors/zerodha.png" },
-    { name: "Zomato", logo: "/images/investors/zomato.png" },
-    { name: "Paytm", logo: "/images/investors/paytm.png" },
-  ]
+  // const investors = [
+  //   { name: "Talrop", logo: "/images/investors/talrop.png" },
+  // ]
 
   return (
     <motion.div
@@ -35,7 +24,7 @@ export default function InvestorGrid() {
         },
       }}
     >
-      {investors.map((investor, index) => (
+      {/* {investors.map((investor, index) => (
         <motion.div
           key={index}
           className="bg-gray-50 p-4 rounded-lg flex items-center justify-center h-32 hover:shadow-md transition-all duration-300"
@@ -60,7 +49,7 @@ export default function InvestorGrid() {
             className="max-h-12 w-auto"
           />
         </motion.div>
-      ))}
+      ))} */}
     </motion.div>
   )
 }

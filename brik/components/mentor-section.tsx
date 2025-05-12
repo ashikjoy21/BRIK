@@ -36,7 +36,7 @@ export default function MentorSection() {
     {
       name: "Alosh Denny",
       role: "Deep learning and LLM researcher",
-      image: "",
+      image: "/images/mentors/alosh-denny.jpg",
     },
     {
       name: "Adil Muhammed Y",

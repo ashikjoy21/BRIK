@@ -24,13 +24,14 @@ export default function TeamPage() {
               Meet <span className="text-blue-500">our team</span>
             </h1>
             <AnimatedSection delay={0.3} className="mt-6">
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              <div className="text-lg text-gray-600 max-w-3xl mx-auto">
                 <AnimatedText
                   text="The BRIK team is committed to empowering the next generation of founders. We're passionate about helping technical builders transform their ideas into thriving, successful companies."
                   type="words"
                   wordSpacing="normal"
+                  className="inline-block"
                 />
-              </p>
+              </div>
             </AnimatedSection>
           </AnimatedSection>
 

@@ -25,6 +25,7 @@ import Image from "next/image"
 import PageTransition from "@/components/page-transition"
 import AnimatedSection from "@/components/animated-section"
 import AnimatedText from "@/components/animated-text"
+import InviteButton from "@/components/invite-button"
 
 /**
  * Homepage component that renders the BRIK landing page
@@ -61,12 +62,7 @@ export default function Home() {
             </AnimatedSection>
 
             <AnimatedSection delay={0.7}>
-              <Button
-                size="lg"
-                className="rounded-full text-lg px-8 py-6 bg-blue-500 hover:bg-blue-600 transition-all duration-300 hover:scale-105"
-              >
-                Request Invite
-              </Button>
+              <InviteButton className="rounded-full text-lg px-8 py-6 bg-blue-500 hover:bg-blue-600 transition-all duration-300 hover:scale-105" />
             </AnimatedSection>
           </div>
         </section>
@@ -284,13 +280,10 @@ export default function Home() {
                 wordSpacing="normal"
               />
             </h2>
-            <Button
-              size="lg"
+            <InviteButton 
               variant="secondary"
               className="rounded-full text-lg px-8 py-6 bg-white text-blue-500 hover:bg-gray-100 transition-all duration-300 hover:scale-105"
-            >
-              Request Invite
-            </Button>
+            />
           </AnimatedSection>
         </section>
 

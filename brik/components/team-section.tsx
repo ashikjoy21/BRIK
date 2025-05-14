@@ -23,6 +23,16 @@ export default function TeamSection() {
       role: "Lead",
       image: "/images/team/sarangi.jpg",
     },
+    {
+      name: "Varsha Prasad",
+      role: "Lead",
+      image: "/images/team/varsha-prasad.jpg",
+    },
+    {
+      name: "Fahma Fathima",
+      role: "Lead",
+      image: "/images/team/fahma-fathima.png",
+    },
   ]
 
   // Initial number of team members to display and increment amount

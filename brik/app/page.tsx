@@ -204,7 +204,7 @@ export default function Home() {
                 <span className="text-gray-500">designed to help them grow through building.</span>
               </h2>
             </AnimatedSection>
-            <AnimatedSection delay={0.3} className="mt-8">
+            {/* <AnimatedSection delay={0.3} className="mt-8">
               <div className="transition-transform duration-500 hover:scale-105">
                 <Image
                   src="/placeholder.svg?height=600&width=1000"
@@ -214,7 +214,7 @@ export default function Home() {
                   className="rounded-lg mx-auto"
                 />
               </div>
-            </AnimatedSection>
+            </AnimatedSection> */}
           </div>
         </section>
 

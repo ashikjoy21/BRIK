@@ -31,7 +31,7 @@ export default function MentorSection() {
     {
       name: "Hritesh Bhardwaj",
       role: "AI Engineer, 30 days",
-      image: "",
+      image: "/images/mentors/hritesh-bhardwaj.jpg",
     },
     {
       name: "Alosh Denny",

@@ -15,7 +15,7 @@ export default function TeamSection() {
     },
     {
       name: "Diaz Jensen",
-      role: "Co-Founder",
+      role: "Co-Founder ",
       image: "/images/team/diaz-jensen.jpg",
     },
     {

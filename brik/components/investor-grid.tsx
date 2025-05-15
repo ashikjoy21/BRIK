@@ -46,6 +46,10 @@ export default function InvestorGrid() {
             alt={investor.name}
             width={150}
             height={60}
+            loading={index < 6 ? "eager" : "lazy"}
+            priority={index < 6}
+            placeholder="blur"
+            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFeAJc0gWN4wAAAABJRU5ErkJggg=="
             className="max-h-12 w-auto"
           />
         </motion.div>

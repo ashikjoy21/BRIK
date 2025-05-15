@@ -130,6 +130,11 @@ export default function TeamSection() {
                   src={member.image || "/images/team/default.jpg"}
                   alt={member.name}
                   fill
+                  sizes="(max-width: 768px) 50vw, 25vw"
+                  loading={index < 4 ? "eager" : "lazy"}
+                  priority={index < 4}
+                  placeholder="blur"
+                  blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFeAJc0gWN4wAAAABJRU5ErkJggg=="
                   className="object-cover grayscale hover:grayscale-0 transition-all duration-500"
                 />
               </motion.div>

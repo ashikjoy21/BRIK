@@ -9,7 +9,7 @@ interface InviteButtonProps {
 
 export default function InviteButton({ variant = "default", className = "" }: InviteButtonProps) {
   const handleClick = () => {
-    window.open("https://docs.google.com/forms/d/e/1FAIpQLSfQ2IjEDG5HrcsbwqCQRWQ4k_cb2jlgf_PUBgs5iLBI0BT1Pw/viewform?usp=sharing", "_blank");
+    window.open("https://makemypass.com/event/brikcommunity", "_blank");
   };
 
   return (

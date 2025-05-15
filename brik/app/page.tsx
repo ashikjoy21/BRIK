@@ -57,7 +57,7 @@ export default function Home() {
               <p className="text-xl md:text-2xl text-gray-700 mb-8">
                 A selective ecosystem to grow with peers, mentors, and real-world projects.
                 <br />
-                No courses. No fake certificates. Just building — together.
+                No courses. No fake certificates. Just building together.
               </p>
             </AnimatedSection>
 

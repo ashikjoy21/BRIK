@@ -33,6 +33,26 @@ export default function TeamSection() {
       role: "Lead",
       image: "/images/team/fahma-fathima.png",
     },
+    {
+      name: "Abhishikth S Mattam",
+      role: "Creative Team",
+      image: "/images/team/abhishikth-s-mattom.jpg",
+    },
+    {
+      name: "Devamanas S",
+      role: "Creative Team",
+      image: "/images/team/devmanas.jpg",
+    },
+    {
+      name: "Gautham Girish Nair",
+      role: "Creative Team",
+      image: "/images/team/gautham-girish-nair.jpg",
+    },
+    {
+      name: "Aswin P Nair",
+      role: "Web Master",
+      image: "/images/team/aswin-p-nair.jpg",
+    },
   ]
 
   // Initial number of team members to display and increment amount

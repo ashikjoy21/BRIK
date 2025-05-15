@@ -10,12 +10,12 @@ export default function TeamSection() {
   const allTeamMembers = [
     {
       name: "Ashik Joy",
-      role: "Founder & CEO",
+      role: "Co-Founder & CEO",
       image: "/images/team/ashik-joy.jpg",
     },
     {
       name: "Diaz Jensen",
-      role: "Lead",
+      role: "Co-Founder",
       image: "/images/team/diaz-jensen.jpg",
     },
     {

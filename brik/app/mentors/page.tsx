@@ -24,13 +24,14 @@ export default function MentorsPage() {
               Meet <span className="text-blue-500">the mentors</span>
             </h1>
             <AnimatedSection delay={0.3} className="mt-6">
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              <div className="text-lg text-gray-600 max-w-3xl mx-auto">
                 <AnimatedText
                   text="Our mentors are visionary founders and executives who have built industry-leading companies. They offer expert guidance, valuable connections, and actionable insights to help BRIK members thrive."
                   type="words"
                   wordSpacing="normal"
+                  className="inline-block"
                 />
-              </p>
+              </div>
             </AnimatedSection>
           </AnimatedSection>
 

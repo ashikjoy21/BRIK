@@ -14,6 +14,7 @@ import { Button } from "@/components/ui/button" // UI button component
 import { Menu, X } from "lucide-react" // Menu icons
 import { usePathname } from "next/navigation" // For determining active page
 import { motion } from "framer-motion" // Animation library
+import InviteButton from "@/components/invite-button" // Custom invite button component
 
 /**
  * Responsive header component for site navigation
@@ -123,9 +124,7 @@ export default function Header() {
             animate="animate"
             whileHover="whileHover"
           >
-            <Button className="rounded-full bg-blue-500 hover:bg-blue-600 transition-colors duration-300">
-              Request Invite
-            </Button>
+            <InviteButton className="rounded-full bg-blue-500 hover:bg-blue-600 transition-colors duration-300" />
           </motion.div>
 
           {/* Mobile Menu Button */}
@@ -178,12 +177,15 @@ export default function Header() {
             >
               Our Team
             </Link>
-            <button
-              className="rounded-full bg-blue-500 hover:bg-blue-600 p-2 w-full transition-colors duration-300"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Request Invite
-            </button>
+             {/* <button
+            //   className="rounded-full bg-blue-500 hover:bg-blue-600 p-2 w-full transition-colors duration-300"
+            //   onClick={() => setIsMenuOpen(false)}
+            // >
+            //   Request Invite
+            // </button> */}
+            <div onClick={() => setIsMenuOpen(false)}>
+              <InviteButton className="rounded-full bg-blue-500 hover:bg-blue-600 w-full transition-colors duration-300" />
+            </div>
           </nav>
         </motion.div>
       )}

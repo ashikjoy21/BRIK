@@ -10,12 +10,12 @@ export default function TeamSection() {
   const allTeamMembers = [
     {
       name: "Ashik Joy",
-      role: "Founder & CEO",
+      role: "Co-Founder & CEO",
       image: "/images/team/ashik-joy.jpg",
     },
     {
       name: "Diaz Jensen",
-      role: "Lead",
+      role: "Co-Founder ",
       image: "/images/team/diaz-jensen.jpg",
     },
     {
@@ -150,6 +150,11 @@ export default function TeamSection() {
                   src={member.image || "/images/team/default.jpg"}
                   alt={member.name}
                   fill
+                  sizes="(max-width: 768px) 50vw, 25vw"
+                  loading={index < 4 ? "eager" : "lazy"}
+                  priority={index < 4}
+                  placeholder="blur"
+                  blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFeAJc0gWN4wAAAABJRU5ErkJggg=="
                   className="object-cover grayscale hover:grayscale-0 transition-all duration-500"
                 />
               </motion.div>

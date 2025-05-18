@@ -68,19 +68,19 @@ export default function Home() {
         </section>
 
         {/* Alumni Section */}
-        {/* <AnimatedSection className="container mx-auto px-4 py-16 md:py-24">
+        <AnimatedSection className="container mx-auto px-4 py-16 md:py-24">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <AnimatedSection direction="left" delay={0.2}>
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
                 BRIK is where India's top student builders <span className="text-blue-500">connect, create</span> and{" "}
                 <span className="text-blue-500">level up.</span>
               </h2>
-            </AnimatedSection> */}
-            {/* <AnimatedSection direction="right" delay={0.4}>
+            </AnimatedSection>
+             <AnimatedSection direction="right" delay={0.4} className="flex justify-center items-center">
               <InvestorGrid />
-            </AnimatedSection> */}
-          {/* </div>
-        </AnimatedSection> */}
+            </AnimatedSection>
+           </div>
+        </AnimatedSection>
 
         {/* Alumni Section */}
         <AnimatedSection className="container mx-auto px-4 py-16 md:py-24">

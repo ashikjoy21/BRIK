@@ -148,7 +148,7 @@ export default function Header() {
           exit={{ opacity: 0, height: 0 }}
           transition={{ duration: 0.3 }}
         >
-          <nav className="flex flex-col space-y-4">
+          <nav className="flex flex-col space-y-4 items-center">
             <Link
               href="/#about"
               className="text-gray-700 hover:text-blue-500 py-2 transition-colors duration-300"
@@ -177,6 +177,12 @@ export default function Header() {
             >
               Our Team
             </Link>
+             {/* <button
+            //   className="rounded-full bg-blue-500 hover:bg-blue-600 p-2 w-full transition-colors duration-300"
+            //   onClick={() => setIsMenuOpen(false)}
+            // >
+            //   Request Invite
+            // </button> */}
             <div onClick={() => setIsMenuOpen(false)}>
               <InviteButton className="rounded-full bg-blue-500 hover:bg-blue-600 w-full transition-colors duration-300" />
             </div>

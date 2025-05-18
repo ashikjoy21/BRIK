@@ -30,7 +30,7 @@ export default function MentorSection() {
     },
     {
       name: "Hritesh Bhardwaj",
-      role: "AI Engineer, 30 days",
+      role: "AI Engineer, 30 Sundays",
       image: "/images/mentors/hritesh-bhardwaj.jpg",
     },
     {
@@ -76,7 +76,7 @@ export default function MentorSection() {
     {
       name: "Aneena Ajith",
       role: "Social Media and Marketing Executive",
-      image: "",
+      image: "placeholder-female.png",
     },
     {
       name: "Sanjay Krishna",

@@ -26,6 +26,7 @@ import PageTransition from "@/components/page-transition"
 import AnimatedSection from "@/components/animated-section"
 import AnimatedText from "@/components/animated-text"
 import InviteButton from "@/components/invite-button"
+import MovingBanner from "@/components/moving-banner"
 
 /**
  * Homepage component that renders the BRIK landing page
@@ -67,19 +68,9 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Alumni Section */}
-        <AnimatedSection className="container mx-auto px-4 py-16 md:py-24">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <AnimatedSection direction="left" delay={0.2}>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                BRIK is where India's top student builders <span className="text-blue-500">connect, create</span> and{" "}
-                <span className="text-blue-500">level up.</span>
-              </h2>
-            </AnimatedSection>
-             <AnimatedSection direction="right" delay={0.4} className="flex justify-center items-center">
-              <InvestorGrid />
-            </AnimatedSection>
-           </div>
+        {/*Moving Banner Section*/}
+        <AnimatedSection>
+          <MovingBanner />
         </AnimatedSection>
 
         {/* Alumni Section */}
@@ -107,7 +98,7 @@ export default function Home() {
                 type="words"
                 wordSpacing="normal"
               />
-                   <AnimatedText
+              <AnimatedText
                 text="you grow with the ones who get it."
                 className="text-white"
                 type="words"
@@ -214,6 +205,21 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Alumni Section */}
+        <AnimatedSection className="container mx-auto px-4 py-16 my-8 md:py-24">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <AnimatedSection direction="left" delay={0.2}>
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                BRIK is where India's top student builders <span className="text-blue-500">connect, create</span> and{" "}
+                <span className="text-blue-500">level up.</span>
+              </h2>
+            </AnimatedSection>
+            <AnimatedSection direction="right" delay={0.4} className="flex justify-center items-center">
+              <InvestorGrid />
+            </AnimatedSection>
+          </div>
+        </AnimatedSection>
+
         {/* FAQs Section - Common questions about BRIK */}
         <section className="container mx-auto px-4 py-16 md:py-24" id="faqs">
           <AnimatedSection className="text-center">
@@ -267,20 +273,20 @@ export default function Home() {
             <h2 className="text-4xl md:text-7xl font-bold mb-6">
               <AnimatedText
                 text="When in doubt, apply."
-                
+
                 className="text-white"
                 type="words"
                 wordSpacing="normal"
               />
               <AnimatedText
                 text="We're all winging it :)"
-                
+
                 className="text-white"
                 type="words"
                 wordSpacing="normal"
               />
             </h2>
-            <InviteButton 
+            <InviteButton
               variant="secondary"
               className="rounded-full text-lg px-8 py-6 bg-white text-blue-500 hover:bg-gray-100 transition-all duration-300 hover:scale-105"
             />

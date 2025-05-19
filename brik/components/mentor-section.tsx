@@ -45,7 +45,7 @@ export default function MentorSection() {
     },
     {
       name: "Navneet Anand",
-      role: "Software Developer, Microsoft",
+      role: "Senior Software Engineer, Uber",
       image: "/images/mentors/navneet-anand.png",
     },
     {

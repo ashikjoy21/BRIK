@@ -14,6 +14,7 @@
 // UI Component imports
 import { Button } from "@/components/ui/button"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { Analytics } from "@vercel/analytics/next"
 
 // Layout component imports
 import Header from "@/components/header"
@@ -305,6 +306,7 @@ export default function Home() {
 
         <Footer />
       </main>
+      <Analytics />
     </PageTransition>
   )
 }

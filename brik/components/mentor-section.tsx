@@ -76,7 +76,7 @@ export default function MentorSection() {
     {
       name: "Aneena Ajith",
       role: "Social Media and Marketing Executive",
-      image: "placeholder-female.png",
+      image: "/placeholder-female.png",
     },
     {
       name: "Sanjay Krishna",
@@ -113,7 +113,79 @@ export default function MentorSection() {
       role: "Flutter and SDE, Amazon",
       image: "/images/mentors/shoyab-azmal-shaik.png",
     },
+    // New entries
+    {
+      name: "AMIT KUMAR",
+      role: "Web Developer, IBM",
+      image: "/images/mentors/amit-kumar.png",
+    },
+    {
+      name: "Yashvardhan Gupta",
+      role: "Data Engineer, Baker Hughes",
+      image: "/images/mentors/yashvardhan-gupta.png",
+    },
+    {
+      name: "Sivakumar Sambath",
+      role: "Product Designer and UI/UX",
+      image: "/images/mentors/sivakumar-sambath.png",
+    },
+    {
+      name: "Anshika Gupta",
+      role: "Software Developer, Amazon",
+      image: "/images/mentors/anshika-gupta.jpg",
+    },
+    {
+      name: "Kanika Arora",
+      role: "Software Developer, Amazon",
+      image: "/images/mentors/kanika-arora.jpg",
+    },
+    {
+      name: "Divya Kishor",
+      role: "Data Analyst, Amazon",
+      image: "/images/mentors/divya-kishor.jpg",
+    },
+    {
+      name: "Gowtham N",
+      role: "Recruiter, Linkedin",
+      image: "/images/mentors/gowtham-n.jpg",
+    },
+    {
+      name: "Abdur Rahman MI",
+      role: "Flutter Developer",
+      image: "/images/mentors/abdur-rahman-mi.jpg",
+    },
+    {
+      name: "Mukesh Sihag",
+      role: "Software Engineer, Sarvam.ai",
+      image: "/images/mentors/mukesh-sihag.jpg",
+    },
+    {
+      name: "Joyal A Johney",
+      role: "Software Engineer (Backend), Keyvalue software system",
+      image: "/images/mentors/joyal-a-johney.jpg",
+    },
+    {
+      name: "Vishnu A",
+      role: "Program Manager, Google",
+      image: "/images/mentors/vishnu-a.jpg",
+    },
+    {
+      name: "Abinash Singh",
+      role: "Software Developer, Linux foundation",
+      image: "/images/mentors/abinash-singh.jpg",
+    },
+    {
+      name: "Radha Vaishnav",
+      role: "UI/UX Designer, Growth School",
+      image: "/images/mentors/radha-vaishnav.jpg",
+    },
+    {
+      name: "Neville Patel (Hiring Partner)",
+      role: "CEO, Qualitas Global Services",
+      image: "/images/mentors/neville-patel.jpg",
+    },
   ];
+  
 
 
 

@@ -14,6 +14,7 @@
 // UI Component imports
 import { Button } from "@/components/ui/button"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { Analytics } from "@vercel/analytics/next"
 
 // Layout component imports
 import Header from "@/components/header"
@@ -40,7 +41,7 @@ export default function Home() {
         <Header />
 
         {/* Hero Section */}
-        <section className="container mx-auto px-4 py-16 md:py-24 text-center" id="home">
+        <section className="container mx-auto px-4 py-16 md:py-24 text-center mb-10" id="home">
           <div className="max-w-4xl mx-auto">
             <AnimatedSection delay={0.1}>
               <h1 className="text-4xl md:text-4xl font-bold mb-4">
@@ -70,7 +71,17 @@ export default function Home() {
 
         {/*Moving Banner Section*/}
         <AnimatedSection>
-          <MovingBanner />
+          <div className=" py-20">
+            <AnimatedSection delay={0.5}>
+              <h1 className="text-2xl md:text-3xl font-bold text-center">
+                Mentors from top companies and leading startups
+              </h1>
+              <h1 className="text-2xl md:text-3xl font-bold text-center mb-20">
+                throughout the world!
+              </h1>
+            </AnimatedSection>
+            <MovingBanner />
+          </div>
         </AnimatedSection>
 
         {/* Alumni Section */}
@@ -295,6 +306,7 @@ export default function Home() {
 
         <Footer />
       </main>
+      <Analytics />
     </PageTransition>
   )
 }

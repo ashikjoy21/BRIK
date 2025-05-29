@@ -34,7 +34,7 @@ const BANNER_ITEMS = [...Array(30)].flatMap(() => BANNER_BASE_ITEMS);
 
 export default function MovingBanner() {
     return (
-        <div className="relative w-full bg-gray-200 overflow-hidden py-2">
+        <div className="relative w-full bg-gray-100 overflow-hidden py-2">
             <div className="inline-flex gap-10 p-4">
                 <motion.div
                     className="flex gap-10"

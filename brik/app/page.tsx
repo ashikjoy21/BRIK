@@ -71,13 +71,13 @@ export default function Home() {
 
         {/*Moving Banner Section*/}
         <AnimatedSection>
-          <div className="bg-gray-100 py-20">
+          <div className=" py-20">
             <AnimatedSection delay={0.5}>
               <h1 className="text-2xl md:text-3xl font-bold text-center">
                 Mentors from top companies and leading startups
               </h1>
               <h1 className="text-2xl md:text-3xl font-bold text-center mb-20">
-                through out the world!
+                throughout the world!
               </h1>
             </AnimatedSection>
             <MovingBanner />

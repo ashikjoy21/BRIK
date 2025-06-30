@@ -24,9 +24,9 @@ export default function TeamSection() {
       image: "/images/team/sarangi.jpg",
     },
     {
-      name: "Varsha Prasad",
+      name: "Parvathy V Nair",
       role: "Lead",
-      image: "/images/team/varsha-prasad.jpg",
+      image: "/images/team/parvathy-v-nair.png",
     },
     {
       name: "Fahma Fathima",

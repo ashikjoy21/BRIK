@@ -80,7 +80,7 @@ export default function Home() {
                 throughout the world!
               </h1>
             </AnimatedSection>
-            <MovingBanner />
+            {/* <MovingBanner /> */}
           </div>
         </AnimatedSection>
 

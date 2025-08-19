@@ -27,7 +27,6 @@ export default function Header() {
     { href: "/#about", label: "About" },
     { href: "/mentors", label: "Mentors" },
     { href: "/team", label: "Our Team" },
-    { href: "/events", label: "Events" },
     { href: "/#faqs", label: "FAQs" },
   ];
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -171,13 +170,6 @@ export default function Header() {
               onClick={() => setIsMenuOpen(false)}
             >
               Our Team
-            </Link>
-            <Link
-              href="/events"
-              className="text-gray-700 hover:text-blue-500 py-2 transition-colors duration-300"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Events
             </Link>
             <Link
               href="/#faqs"

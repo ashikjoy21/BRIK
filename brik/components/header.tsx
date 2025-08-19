@@ -23,6 +23,13 @@ import InviteButton from "@/components/invite-button" // Custom invite button co
  * @returns Header component with desktop and mobile navigation options
  */
 export default function Header() {
+  const navItems = [
+    { href: "/#about", label: "About" },
+    { href: "/mentors", label: "Mentors" },
+    { href: "/team", label: "Our Team" },
+    { href: "/events", label: "Events" },
+    { href: "/#faqs", label: "FAQs" },
+  ];
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const pathname = usePathname()
 
@@ -85,7 +92,7 @@ export default function Header() {
   }
 
   return (
-    <header className="border-b sticky top-0 bg-white/90 backdrop-blur-sm z-50">
+    <header className="border-b sticky top-0 bg-white/70 backdrop-blur-sm z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           <motion.div variants={logoVariants} initial="initial" animate="animate" whileHover="whileHover">
@@ -96,12 +103,7 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            {[
-              { href: "/#about", label: "About" },
-              { href: "/mentors", label: "Mentors" },
-              { href: "/team", label: "Our Team" },
-              { href: "/#faqs", label: "FAQs" },
-            ].map((item, i) => (
+            {navItems.map((item, i) => (
               <motion.div
                 key={item.href}
                 custom={i}
@@ -164,18 +166,25 @@ export default function Header() {
               Mentors
             </Link>
             <Link
-              href="/#faqs"
-              className="text-gray-700 hover:text-blue-500 py-2 transition-colors duration-300"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              FAQs
-            </Link>
-            <Link
               href="/team"
               className="text-gray-700 hover:text-blue-500 py-2 transition-colors duration-300"
               onClick={() => setIsMenuOpen(false)}
             >
               Our Team
+            </Link>
+            <Link
+              href="/events"
+              className="text-gray-700 hover:text-blue-500 py-2 transition-colors duration-300"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Events
+            </Link>
+            <Link
+              href="/#faqs"
+              className="text-gray-700 hover:text-blue-500 py-2 transition-colors duration-300"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              FAQs
             </Link>
              {/* <button
             //   className="rounded-full bg-blue-500 hover:bg-blue-600 p-2 w-full transition-colors duration-300"

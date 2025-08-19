@@ -10,49 +10,54 @@ export default function TeamSection() {
   const allTeamMembers = [
     {
       name: "Ashik Joy",
-      role: "Co-Founder & CEO",
+      role: "Chief Executive Officer",
       image: "/images/team/ashik-joy.jpg",
     },
     {
       name: "Diaz Jensen",
-      role: "Co-Founder ",
+      role: "Chief Operations Officer",
       image: "/images/team/diaz-jensen.jpg",
     },
     {
       name: "Sarangi",
-      role: "Lead",
+      role: "Operations Lead",
       image: "/images/team/sarangi.jpg",
     },
     {
       name: "Parvathy V Nair",
-      role: "Lead",
+      role: "Operations Lead",
       image: "/images/team/parvathy-v-nair.png",
     },
     {
       name: "Fahma Fathima",
-      role: "Lead",
+      role: "Mentorship and Support Lead",
       image: "/images/team/fahma-fathima.png",
     },
     {
       name: "Abhishikth S Mattam",
-      role: "Creative Team",
+      role: "Creative strategist",
       image: "/images/team/abhishikth-s-mattom.jpg",
     },
     {
       name: "Devamanas S",
-      role: "Creative Team",
+      role: "Community Director",
       image: "/images/team/devmanas.jpg",
     },
     {
       name: "Gautham Girish Nair",
-      role: "Creative Team",
+      role: "Public Relations Officer",
       image: "/images/team/gautham-girish-nair.jpg",
     },
     {
       name: "Aswin P Nair",
-      role: "Web Master",
+      role: "Chief Technical Officer",
       image: "/images/team/aswin-p-nair.jpg",
     },
+    {
+      name: "Benito Bitto",
+      role: "Branding and Marketing Lead",
+      image: "/images/team/benito-bitto.jpg",
+    }
   ]
 
   // Initial number of team members to display and increment amount

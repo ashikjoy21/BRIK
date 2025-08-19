@@ -41,31 +41,43 @@ export default function Home() {
         <Header />
 
         {/* Hero Section */}
-        <section className="container mx-auto px-4 py-16 md:py-24 text-center mb-10" id="home">
-          <div className="max-w-4xl mx-auto">
-            <AnimatedSection delay={0.1}>
-              <h1 className="text-4xl md:text-4xl font-bold mb-4">
-                <span className="text-blue-500">ONE STEP AT A TIME</span>
-              </h1>
-            </AnimatedSection>
+        <section className="relative min-h-screen -mt-20 flex items-center justify-center" id="home">
+          <div 
+            className="absolute inset-0 top-0 z-0"
+            style={{
+              backgroundImage: "url('/images/meeting1/meet2.jpg')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              opacity: 0.3
+            }}
+          />
+          
+          <div className="container mx-auto px-4 py-16 md:py-24 text-center mb-10 relative z-10 mt-20">
+            <div className="max-w-4xl mx-auto">
+              <AnimatedSection delay={0.1}>
+          <h1 className="text-4xl md:text-4xl font-bold mb-4">
+            <span className="text-blue-500">ONE STEP AT A TIME</span>
+          </h1>
+              </AnimatedSection>
 
-            <AnimatedSection delay={0.3}>
-              <h2 className="text-6xl md:text-8xl font-bold mb-6">
-                <AnimatedText text="India's Fast-Track for Builders" type="words" wordSpacing="normal" />
-              </h2>
-            </AnimatedSection>
+              <AnimatedSection delay={0.3}>
+          <h2 className="text-6xl md:text-8xl font-bold mb-6">
+            <AnimatedText text="India's Fast-Track for Builders" type="words" wordSpacing="normal" />
+          </h2>
+              </AnimatedSection>
 
-            <AnimatedSection delay={0.5}>
-              <p className="text-xl md:text-2xl text-gray-700 mb-8">
-                A selective ecosystem to grow with peers, mentors, and real-world projects.
-                <br />
-                No courses. No fake certificates. Just building together.
-              </p>
-            </AnimatedSection>
+              <AnimatedSection delay={0.5}>
+          <p className="text-xl md:text-2xl text-gray-700 mb-8">
+            A selective ecosystem to grow with peers, mentors, and real-world projects.
+            <br />
+            No courses. No fake certificates. Just building together.
+          </p>
+              </AnimatedSection>
 
-            <AnimatedSection delay={0.7}>
-              <InviteButton className="rounded-full text-lg px-8 py-6 bg-blue-500 hover:bg-blue-600 transition-all duration-300 hover:scale-105" />
-            </AnimatedSection>
+              <AnimatedSection delay={0.7}>
+          <InviteButton className="rounded-full text-lg px-8 py-6 bg-blue-500 hover:bg-blue-600 transition-all duration-300 hover:scale-105" />
+              </AnimatedSection>
+            </div>
           </div>
         </section>
 
@@ -137,17 +149,17 @@ export default function Home() {
             <AnimatedSection direction="right" delay={0.3}>
               <div className="relative w-full aspect-square max-w-md mx-auto rotate-3 shadow-xl transition-transform duration-500 hover:rotate-0 hover:scale-105">
                 <Image
-                  src="/images/google-founders.png"
+                  src="/images/meeting1/meet1.jpg"
                   alt="Google founders"
                   width={500}
                   height={500}
                   className="rounded-lg"
                 />
-                <div className="absolute bottom-0 left-0 right-0 p-4 bg-white bg-opacity-90 rounded-b-lg">
-                  <p className="font-bold text-lg">SERGEY BRIN & LARRY PAGE</p>
-                  <p className="font-bold">(FOUNDERS OF GOOGLE)</p>
+                <div className="absolute bottom-0 left-0 right-0 p-4 bg-white rounded-b-lg">
+                  <p className="font-bold text-lg">BRIK’s debut meetup brought together the next wave of student hackers, builders & early founders.</p>
+                  <br />
                   <p className="text-sm">
-                    Mentored by Andy Bechtolsheim <span className="text-blue-500">(founder of Sun Microsystems)</span>
+                    at <span className="text-blue-500">TinkerSpace Kochi</span>
                   </p>
                 </div>
               </div>
@@ -179,7 +191,7 @@ export default function Home() {
             <AnimatedSection direction="right" delay={0.3}>
               <div className="relative transition-transform duration-500 hover:scale-105">
                 <Image
-                  src="/images/builders.jpg"
+                  src="/images/meeting1/meet3.jpg"
                   alt="Z Fellows group"
                   width={500}
                   height={350}

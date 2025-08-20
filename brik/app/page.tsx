@@ -45,7 +45,7 @@ export default function Home() {
           <div 
             className="absolute inset-0 top-0 z-0"
             style={{
-              backgroundImage: "url('/images/meeting1/meet2.jpg')",
+              backgroundImage: "url('/images/meeting1/meet2.JPG')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               opacity: 0.3
@@ -149,7 +149,7 @@ export default function Home() {
             <AnimatedSection direction="right" delay={0.3}>
               <div className="relative w-full aspect-square max-w-md mx-auto rotate-3 shadow-xl transition-transform duration-500 hover:rotate-0 hover:scale-105">
                 <Image
-                  src="/images/meeting1/meet1.jpg"
+                  src="/images/meeting1/meet1.JPG"
                   alt="Google founders"
                   width={500}
                   height={500}
@@ -191,7 +191,7 @@ export default function Home() {
             <AnimatedSection direction="right" delay={0.3}>
               <div className="relative transition-transform duration-500 hover:scale-105">
                 <Image
-                  src="/images/meeting1/meet3.jpg"
+                  src="/images/meeting1/meet3.JPG"
                   alt="Z Fellows group"
                   width={500}
                   height={350}

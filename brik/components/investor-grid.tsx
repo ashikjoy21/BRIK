@@ -6,11 +6,11 @@ import { motion } from "framer-motion"
 export default function InvestorGrid() {
   // List of prominent Indian investors, VCs, and startups
   const investors = [
-    {
-      type: "Community Partners", organizations: [
-        { name: "Talrop", logo: "/images/investors/talrop.png", type: "Community Partner" }
-      ]
-    },
+    // {
+    //   // type: "Community Partners", organizations: [
+    //   //   { name: "Talrop", logo: "/images/investors/talrop.png", type: "Community Partner" }
+    //   // ]
+    // },
     {
       type: "Platform Partners", organizations: [
         { name: "MakeMyPass", logo: "/images/investors/make-my-pass.png", type: "Platform Partner" }
